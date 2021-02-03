@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: url(images/back.jpg) center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: "Arvo","Arial", sans-serif;
+}
+
+.logo{
+  height: 30px;
+}
+
+.navbar{
+  background: rgba(0,0,0,0.5);
+}
+
+.navbar li a{
+  color: white;
+}
+
+.navbar li{
+  font-size: 18px;
+  margin-right: 35px;
+  padding: 20px 0;
+}
+
+.navbar li:hover{
+  border-bottom: 2px solid green;
+  padding: 19px 0;
+}
+
+.jumbotron{
+  background: transparent;
+  margin: 0;
+  padding: 30px;
+  text-align: center;
+  letter-spacing: 2.5px;
+}
+
+.jumbotron h1{
+  font-size: 3.5em;
+}
+
+.col-sm-4{
+    text-align: center;
+}
+
+.icons img{
+  height: 120px;
+  margin-bottom: 30px;
+}
+
+.container{
+  max-width: 1000px;
+}
+
+.contactButton{
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.contactButton .btn{
+  background: rgba(0,255,204,0.6);
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  color: #fff;
+  padding: 10px 70px;
+}
+
+.contactButton .btn:hover{
+  background: rgba(0,0,0,0.5);
+  border: none;
+}
+
+.footer{
+  background: rgba(0,0,0,0.5);
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+@media (max-width: 768px){
+    .icons img{
+      height: 70px;
+    }
+}
